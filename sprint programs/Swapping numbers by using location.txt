@@ -1,0 +1,7 @@
+7 first:n1 temp 
+7 second:n2 dup_first:n1
+7 temp dup_second:n2
+9
+n1:2
+n2:3
+temp:0
