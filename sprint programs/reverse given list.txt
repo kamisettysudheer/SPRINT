@@ -1,0 +1,37 @@
+3 start
+f_l_e:87 length:5
+start:7 f_l_e f_pointer
+7 f_l_e dup_f_p
+1 f_l_e length l_pointer
+2 l_pointer one l_pointer
+7 l_pointer l_l
+7 l_pointer dup_l
+7 length find_count
+(1<c):5 one find_count yes1
+swap:5 zero counter yes2
+9
+yes1:2 find_count two find_count
+1 counter one counter
+3 (1<c)
+yes2:7 dup_f_p:ef swapper
+7 l_l:el f_pointer:ef
+7 swapper dup_l:el
+2 counter one counter
+1 dup_f_p one dup_f_p
+1 f_pointer one f_pointer
+2 l_l one l_l
+2 dup_l one dup_l
+3 swap
+
+
+l_pointer:0
+swapper:0
+counter:0
+find_count:0
+one:1
+two:2
+zero:0
+ef:0
+el:0
+
+1 2 3 4 5
