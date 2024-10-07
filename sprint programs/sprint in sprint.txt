@@ -1,0 +1,94 @@
+3 sprint
+
+3 5 3 4 4 4 3 10 9 0  
+
+sprint:7 read:3 inst
+       4 three inst jump
+       4 seven inst copy
+       4 one inst add
+       4 two inst sub
+       4 four inst equal
+       4 five inst lessthan 
+       4 stop inst stop 
+-1
+
+
+jump:1 read one next
+     7 next:0 next1
+     1 next1 two next1
+     7 next1 read
+     3 sprint
+
+copy:1 read one next2
+     7 next2:0 next3
+     1 next3 two next3
+     1 read two next4
+     7 next4:0 next5
+     1 next5 two next5
+     7 next3:0 next5:0
+     1 read three read
+     3 sprint
+
+add:1 read one next6
+     7 next6:0 next7
+     1 next7 two next7
+     1 read two next8
+     7 next8:0 next9
+     1 next9 two next9
+     1 read three next10
+     7 next10:0 next11
+     1 next11 two next11     
+     1 next7:0 next9:0 next11:0
+     1 read four read
+     3 sprint
+
+sub:1 read one next12
+     7 next12:0 next13
+     1 next13 two next13
+     1 read two next14
+     7 next14:0 next15
+     1 next15 two next15
+     1 read three next16
+     7 next16:0 next17
+     1 next17 two next17     
+     2 next13:0 next15:0 next17:0
+     1 read four read
+     3 sprint
+
+equal:1 read one next18
+     7 next18:0 next19
+     1 next19 two next19
+     1 read two next20
+     7 next20:0 next21
+     1 next21 two next21
+     1 read three next22
+     7 next22:0 next23
+     1 next23 two next23     
+     4 next19:0 next21:0 next23:0
+     1 read four read
+     3 sprint
+
+lessthan:1 read one next24
+     7 next24:0 next25
+     1 next25 two next25
+     1 read two next26
+     7 next26:0 next27
+     1 next27 two next27
+     1 read three next28
+     7 next28:0 next29
+     1 next29 two next29     
+     5 next25:0 next27:0 next29:0
+     1 read four read
+     3 sprint
+
+
+one:1
+two:2
+next1:0
+
+inst:0
+five:5
+four:4
+three:3
+seven:7
+stop:9
