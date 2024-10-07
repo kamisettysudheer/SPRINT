@@ -1,0 +1,33 @@
+3 5
+num:5 factorial:1 
+4 num zero stop
+4 num one stop
+4 num two 71
+7 num dup_num
+2 num one count
+7 num adder
+5 one count 35
+7 add factorial
+9
+5 one_c adder 41
+3 51
+1 dup_num add add
+1 one_c one one_c
+3 35
+7 add dup_num
+2 count one count
+7 one one_c
+2 adder one adder
+1 one one_c one_c
+3 27
+7 two factorial
+9
+adder:0
+add:0
+count:0
+dup_num:0
+one_c:1
+one:1
+two:2
+stop:9
+zero:0
