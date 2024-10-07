@@ -1,0 +1,24 @@
+3 start
+num:1 s_r:0
+start:4 num zero stop
+5 sr_c square 15
+3 check
+1 dup_num square dup_num
+1 sr_c one sr_c
+3 9
+check:5 num dup_num 45
+5 num dup_num 50
+7 zero sr_c
+7 zero dup_num
+1 one square square
+3 9
+2 square one s_r
+9
+7 square s_r
+9
+sr_c:0
+dup_num:0
+square:1
+one:1
+zero:0
+stop:9
