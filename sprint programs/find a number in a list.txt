@@ -1,0 +1,17 @@
+3 start
+first_element:33 length:4
+target:5 result:0
+start:7 first_element address
+start1:5 e_count length check_if_equal
+9
+
+check_if_equal:4 target address:first_element (res=1)
+1 address one address
+1 e_count one e_count
+3 start1
+(res=1):7 one result
+9
+e_count:0
+one:1
+stop:9
+e1:1 e2:3 e3:2 e4:5  
